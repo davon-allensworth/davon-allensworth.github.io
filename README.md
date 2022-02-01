@@ -1,5 +1,5 @@
 # My Personal Website
 
-### WIP
+### MAJOR WIP
 
 View here: [https://davon-allensworth.github.io/](https://davon-allensworth.github.io/)
