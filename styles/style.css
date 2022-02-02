@@ -46,3 +46,14 @@ a.button {
 a{
   font-size: 25px;
 }
+
+.gradient-text {
+  background-color: #0016ee;
+  background-image: linear-gradient(45deg, #711c91, #ea00d9, #0abdc6, #133e7c);
+  background-size: 100%;
+
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
