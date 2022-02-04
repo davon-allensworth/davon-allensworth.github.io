@@ -12,6 +12,10 @@ h1{
   align-self: center;
   font-size: 100px;
 }
+h3{
+  align-self: center;
+  font-size: 100px;
+}
 
 ul{
   list-style: none;
@@ -48,6 +52,7 @@ a{
 }
 
 .gradient-text {
+  /*
   background-color: #0016ee;
   background-image: linear-gradient(115deg, #711c91, #ea00d9, #0abdc6, #133e7c);
   background-size: 100%;
@@ -56,4 +61,75 @@ a{
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent; 
   -moz-text-fill-color: transparent;
+  */
+  background-size: 100%;
+  color:#313131;
+  font-weight: bold;
+  -webkit-animation:colorchange 20s infinite alternate;
+}
+
+@-webkit-keyframes colorchange {
+  0% {
+    
+    color: blue;
+  }
+  
+  10% {
+    
+    color: #8e44ad;
+  }
+  
+  20% {
+    
+    color: #1abc9c;
+  }
+  
+  30% {
+    
+    color: #6300ff;
+  }
+  
+  40% {
+    
+    color: blue;
+  }
+  
+  50% {
+    
+    color: #711c91;
+  }
+  
+  60% {
+    
+    color: rgb(119, 0, 255);
+  }
+  
+  70% {
+    
+    color: #ea00d9;
+  }
+  80% {
+  
+    color: #4504bd;
+  }
+  
+  90% {
+  
+    color: #2980b9;
+  }
+  
+  100% {
+    
+    color: rgb(160, 69, 196);
+  }
+}
+
+.navbar-nav > li{
+  padding-left:30px;
+  padding-right:30px;
+}
+
+.navbar-nav > li{
+  margin-left:30px;
+  margin-right:30px;
 }
